@@ -1,3 +1,77 @@
-baseURL: http://example.org/
+baseURL: 'https://arkalim.netlify.org'
 languageCode: en-us
-title: My New Hugo Site
+title: Abdur Rahman
+theme: PaperMod
+
+menu:
+  main:
+  - identifier: blog
+    name: Blog
+    url: /blog/
+    weight: 10
+  - identifier: projects
+    name: Projects
+    url: /projects/
+    weight: 20
+  - identifier: search
+    name: Search
+    url: /search/
+    weight: 30
+  - identifier: terms
+    name: Tags
+    url: /tags/
+    weight: 40
+  # - identifier: archives
+  #   name: Archives
+  #   url: /archives/
+  #   weight: 50
+
+params:
+  # theme
+  ShowBreadCrumbs: true
+  hideSummary: true
+  ShowCodeCopyButtons: true
+  showToc: true
+  TocOpen: false
+
+  # Home Info Mode
+  homeInfoParams:
+    Title: Hi there 👋🏼
+    Content: I'm an incoming student at the **University of Toronto**, Canada 🇨🇦 for their MSc in Applied Computing program. Currently, I am working as a Backend Engineer 🧑🏻‍💻 at BuyerAssist.io, a B2B startup based in Pune, India 🇮🇳. I have an extensive background in Deep Learning and Computer Vision through my projects and internship that I did back in college. I have completed my Bachelor of Technology (B.Tech) in Electronics & Communication Engineering from NIT Trichy, one of India's top 10 schools for engineering.
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:abdur.rahman.kalim@gmail.com"
+    - name: "youtube"
+      url: "https://www.youtube.com/c/AbdurRahmanKalim"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/abdurrahmankalim"
+    - name: "github"
+      url: "https://github.com/arkalim"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
