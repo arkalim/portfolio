@@ -8,7 +8,7 @@ showToc: false
 
 # weight: 1
 cover:
-    image: "projects/kindle-to-notion/cover.png"
+    image: "projects/kindle-to-notion/cover.jpg"
 --- 
 ## 🔗 [GitHub](https://github.com/arkalim/kindle-to-notion)
 

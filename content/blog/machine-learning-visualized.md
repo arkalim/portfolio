@@ -15,18 +15,18 @@ cover:
 
 In the traditional hard-coded approach, we program a computer to perform a certain task. We tell it exactly what to do when it receives a certain input. In mathematical terms, this is like saying that we write the ***f(x)*** such that when users feed the input ***x*** into ***f(x)***, it gives the correct output ***y***.
 
-![](/blog/machine-learning-visualized/img1.png)
+![](/blog/machine-learning-visualized/img1.jpg)
 In machine learning, however, we have a large set of inputs x and corresponding outputs y but not the function f(x). The goal here is to find the f(x) that transforms the input x into the output y. Well, that’s not an easy job. In this article, we will learn how this happens.
 
 # Dataset
 
 To visualize the dataset, let’s make our synthetic dataset where each data point (input ***x***) is 3 dimensional, making it suitable to be plotted on a 3D chart. We will generate 250 points **(cluster 0)** in a cluster centered at the origin (0, 0, 0). A similar cluster of 250 points **(cluster 1)** is generated but not centered at the origin. Both clusters are relatively close but there is a clear separation as seen in the image below. These two clusters are the two classes of data points. The big green dot represents the centroid of the whole dataset.
 
-![](/blog/machine-learning-visualized/img2.png)
+![](/blog/machine-learning-visualized/img2.jpg)
 
 After generating the dataset, we will normalize it by subtracting the mean and dividing by the standard deviation. This is done to zero-center the data and map values in each dimension in the dataset to a common scale. This speeds up the learning.
 
-![](/blog/machine-learning-visualized/img3.png)
+![](/blog/machine-learning-visualized/img3.jpg)
 
 The data will be saved in an array X containing the 3D coordinates of normalized points. We will also generate an array Y with the value either 0 or 1 at each index depending on which cluster the 3D point belongs.
 
@@ -36,7 +36,7 @@ Now that we have our data ready, we can say that we have the ***x*** and ***y
 
 The function f(x) should take a 3D coordinate as input and output a number between 0 and 1. If this number is less than 0.5, this point belongs to cluster 0 otherwise, it belongs to cluster 1. Let’s define a simple function for this task.
 
-![](/blog/machine-learning-visualized/img4.png)
+![](/blog/machine-learning-visualized/img4.jpg)
 
 ***x***: input tensor of shape (num_points, 3)W: Weight (parameter) of shape (3, 1) chosen randomlyB: Bias (parameter) of shape (1, 1) chosen randomlySigmoid: A function that maps values between 0 and 1
 
@@ -44,11 +44,11 @@ Let’s take a moment to understand what this function means. Before applying t
 
 Remember that W and B are chosen randomly and so the 3D space will be squished onto a random line. The decision boundary for this transformation is the set of points that make ***f(x)* = 0.5**. Think why! As the 3D space is being squished onto a 1D line, a whole plane is mapped to the value 0.5 on the line. This plane is the decision boundary for f(x). Ideally, it should divide the dataset into two clusters but since **W** and **B** are randomly chosen, this plane is randomly oriented as shown below.
 
-![](/blog/machine-learning-visualized/img5.png)
+![](/blog/machine-learning-visualized/img5.jpg)
 
 Our goal is to find the right values for W and B that orients this plane (decision boundary) in such a way that it divides the dataset into the two clusters. This when done, yields a plane as shown below.
 
-![](/blog/machine-learning-visualized/img6.png)
+![](/blog/machine-learning-visualized/img6.jpg)
 
 # Loss
 
@@ -64,7 +64,7 @@ It wouldn’t be wrong to say that [***1-f(x), f(x)***] forms a probability dist
 
 A good metric to calculate the incongruity between two probability distributions is the **Cross-Entropy** function. As we are dealing with just 2 classes, we can use **Binary Cross-Entropy (BCE).** This function is available in PyTorch’s **torch.nn** module. If the predicted probability distribution is very similar to the true probability distribution, this function returns a small value and vice versa. We can average this value for all the data points and use it as a parameter to test how the classifier is performing.
 
-![](/blog/machine-learning-visualized/img7.png)
+![](/blog/machine-learning-visualized/img7.jpg)
 
 This value is called the loss and mathematically, our goal now is to minimize this loss.
 
@@ -81,21 +81,21 @@ The above two steps will be repeated over and over again until the loss stops de
 
 Forward propagation is simple and already discussed above. However, it is essential to take a moment to understand **backpropagation** as it is the key to machine learning. Recall that we have 3 parameters (variables) in **W** and 1 in **B**. So, in total, we have 4 values to optimize.
 
-![](/blog/machine-learning-visualized/img8.png)
+![](/blog/machine-learning-visualized/img8.jpg)
 
 Once we have the loss from forward-propagation, we will calculate the gradients of the loss function with respect to each variable in the classifier. If we plot the loss for different values of each parameter, we can see that the loss is minimum at a particular value for each parameter. I have plotted the loss vs parameter for each parameter.
 
-![](/blog/machine-learning-visualized/img9.png)
+![](/blog/machine-learning-visualized/img9.jpg)
 
 An important observation to make here is that the loss is minimized at a particular value for each of these parameters as shown by the red dot.
 
 Let’s consider the first plot and discuss how w1 will be optimized. The process remains the same for the other parameters. Initially, the values for W and B are chosen randomly and so **(w1, loss)** will be randomly placed on this curve as shown by the green dot.
 
-![](/blog/machine-learning-visualized/img10.png)
+![](/blog/machine-learning-visualized/img10.jpg)
 
 Now, the goal is to reach the red dot, starting from the green dot. In other words, we need to move downhill. Looking at the slope of the curve at the green dot, we can tell that increasing w1 (moving right) will lower the loss and therefore move the green dot closer to the red one. In mathematical terms, if the gradient of the loss with respect to w1 is negative, increase w1 to move downhill and vice versa. Therefore, w1 should be updated as:
 
-![](/blog/machine-learning-visualized/img11.png)
+![](/blog/machine-learning-visualized/img11.jpg)
 
 The equation above is known as **gradient descent equation**. Here, the **learning_rate** controls how much we want to increase or decrease w1. If the learning_rate is large, the update will be large. This could lead to w1 going past the red dot and therefore missing the optimal value. If this value is too small, it will take forever for w1 to reach the red dot. You can try experimenting with different values of learning rate to see which works the best. In general, small values like **0.01** works well for most cases.
 
