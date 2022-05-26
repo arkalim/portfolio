@@ -36,12 +36,14 @@ menu:
 
 params:
   # theme
-  ShowBreadCrumbs: true
-  hideMeta: false
-  hideSummary: true
-  ShowCodeCopyButtons: true
   showToc: true
   TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # List View
+  hideDescriptionInList: false
 
   # cover image for posts
   cover:
