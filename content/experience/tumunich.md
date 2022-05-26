@@ -5,7 +5,7 @@ date: 2020-08-16
 draft: false
 tags: []
 showToc: false
-weight: 2
+weight: 302
 --- 
 **Guide:** **Mohammad Farid Azampour** (Visiting Researcher at Chair for Computer Aided Medical Procedures, TU Munich)
 

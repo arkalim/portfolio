@@ -5,8 +5,7 @@ date: 2020-06-15
 draft: false
 tags: ["Python", "PyTorch", "CNN", "LSTM", "CRNN", "DL", "AI"]
 showToc: false
-
-# weight: 1
+weight: 201
 cover:
     image: "projects/automated-image-captioning/cover.jpg"
 --- 

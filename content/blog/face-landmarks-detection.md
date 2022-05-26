@@ -4,8 +4,7 @@ description: "Can computers really understand the human face?"
 date: 2020-07-15
 draft: false
 tags: ["DL", "AI", "Python", "PyTorch"]
-
-# weight: 1
+weight: 101
 cover:
     image: "/blog/face-landmarks-detection/cover.jpg"
     # caption: "A sample landmark detection on a photo by Ayo Ogunseinde taken from Unsplash"
