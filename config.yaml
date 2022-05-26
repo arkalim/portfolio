@@ -11,27 +11,27 @@ menu:
     weight: 10
   - identifier: blog
     name: Blog
-    url: /blog/
+    url: /blog
     weight: 20
   - identifier: projects
     name: Projects
-    url: /projects/
+    url: /projects
     weight: 30
   - identifier: experience
     name: Experience
-    url: /experience/
+    url: /experience
     weight: 40
   - identifier: search
     name: Search
-    url: /search/
+    url: /search
     weight: 50
   - identifier: tags
     name: Tags
-    url: /tags/
+    url: /tags
     weight: 60
   # - identifier: archives
   #   name: Archives
-  #   url: /archives/
+  #   url: /archives
   #   weight: 50
 
 params:
@@ -42,6 +42,20 @@ params:
   ShowCodeCopyButtons: true
   hideMeta: false
 
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Abdur Rahman" # optional default will be site title
+    subtitle: I'm an incoming student at the **University of Toronto**, Canada 🇨🇦 for their MSc in Applied Computing program. Currently, I am working as a Backend Engineer 🧑🏻‍💻 at BuyerAssist.io, a B2B startup based in Pune, India 🇮🇳. <br> I have an extensive background in Deep Learning and Computer Vision through my projects and internship that I did back in college. I have completed my Bachelor of Technology (B.Tech) in Electronics & Communication Engineering from NIT Trichy, one of India's top 10 schools for engineering.
+    imageUrl: "home/me.jpg" # optional
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Blog
+    #     url: "/blog"
+    #   - name: Projects
+    #     url: "/projects"
+
   # List View
   hideDescriptionInList: false
 
@@ -49,11 +63,6 @@ params:
   cover:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
-
-  # Home Info Mode
-  homeInfoParams:
-    Title: Hi there 👋🏼
-    Content: I'm an incoming student at the **University of Toronto**, Canada 🇨🇦 for their MSc in Applied Computing program. Currently, I am working as a Backend Engineer 🧑🏻‍💻 at BuyerAssist.io, a B2B startup based in Pune, India 🇮🇳. I have an extensive background in Deep Learning and Computer Vision through my projects and internship that I did back in college. I have completed my Bachelor of Technology (B.Tech) in Electronics & Communication Engineering from NIT Trichy, one of India's top 10 schools for engineering.
 
   socialIcons:
     - name: "email"
