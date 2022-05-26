@@ -5,22 +5,30 @@ theme: PaperMod
 
 menu:
   main:
+  - identifier: home
+    name: Home
+    url: /
+    weight: 10
   - identifier: blog
     name: Blog
     url: /blog/
-    weight: 10
+    weight: 20
   - identifier: projects
     name: Projects
     url: /projects/
-    weight: 20
+    weight: 30
+  - identifier: experience
+    name: Experience
+    url: /experience/
+    weight: 40
   - identifier: search
     name: Search
     url: /search/
-    weight: 30
-  - identifier: terms
+    weight: 50
+  - identifier: tags
     name: Tags
     url: /tags/
-    weight: 40
+    weight: 60
   # - identifier: archives
   #   name: Archives
   #   url: /archives/
@@ -29,10 +37,16 @@ menu:
 params:
   # theme
   ShowBreadCrumbs: true
+  hideMeta: false
   hideSummary: true
   ShowCodeCopyButtons: true
   showToc: true
   TocOpen: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # Home Info Mode
   homeInfoParams:
@@ -58,11 +72,6 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-
-  # cover image for posts
-  cover:
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
 
 outputs:
   home:
