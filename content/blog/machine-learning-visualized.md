@@ -100,7 +100,7 @@ The equation above is known as **gradient descent equation**. Here, the **lear
 
 In most cases, a single update is not enough to optimize these parameters; so, the process of forward-propagation and backpropagation is repeated in a loop until the loss stops reducing further. Let’s see this in action:
 
-![](/blog/machine-learning-visualized/img12.gif)
+![](/blog/machine-learning-visualized/img12.gif#center)
 
 An important observation to make is that initially the green dot moves quickly and slows down as it gradually approaches the minima. The large slope (gradient) during the first few epochs (when the green dot is far from the minima) is responsible for this large update to the parameters. The gradient decreases as the green dot approaches the minima and thus the update becomes slow. The other three parameters are trained in parallel in the exact same way. Another important observation is that the shape of the curve changes with epoch. This is due to the fact that the other three parameters (w2, w3, b) are also being updated in parallel and each parameter contributes to the shape of the loss curve.
 
@@ -108,7 +108,7 @@ An important observation to make is that initially the green dot moves quickly a
 
 Let’s see how the decision boundary updates in real-time as the parameters are being updated.
 
-![](/blog/machine-learning-visualized/img13.gif)
+![](/blog/machine-learning-visualized/img13.gif#center)
 
 # That’s all folks!
 
