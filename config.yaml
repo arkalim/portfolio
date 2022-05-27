@@ -37,6 +37,10 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
+  ShowPostNavLinks: true
+
+  # for enchanced SEO
+  env: production
 
   # Home Page
   profileMode:
