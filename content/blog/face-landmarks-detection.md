@@ -27,7 +27,7 @@ if not os.path.exists('/content/ibug_300W_large_face_landmark_dataset'):
 
 Here is a sample image from the dataset. We can see that the face occupies a very small fraction of the entire image. If we feed the full image to the neural network, it will also process the background (irrelevant information), making it difficult for the model to learn. Therefore, we need to crop the image and feed only the face portion.
 
-![Sample Image and Landmarks from the Dataset](/face-landmarks-detection/img1.jpg)
+![Sample Image and Landmarks from the Dataset](/blog/face-landmarks-detection/img1.jpg)
 
 ## Data Preprocessing
 
@@ -151,7 +151,7 @@ dataset = FaceLandmarksDataset(Transforms())
 
 The output of the dataset after preprocessing will look something like this (landmarks have been plotted on the image).
 
-![Preprocessed Data Sample](/face-landmarks-detection/img2.jpg)
+![Preprocessed Data Sample](/blog/face-landmarks-detection/img2.jpg)
 
 # Neural Network
 
