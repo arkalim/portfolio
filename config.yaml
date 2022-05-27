@@ -29,10 +29,6 @@ menu:
     name: Tags
     url: /tags
     weight: 60
-  # - identifier: archives
-  #   name: Archives
-  #   url: /archives
-  #   weight: 50
 
 params:
   # theme
@@ -51,10 +47,8 @@ params:
     imageWidth: 220
     imageHeight: 220
     # buttons:
-    #   - name: Blog
-    #     url: "/blog"
-    #   - name: Projects
-    #     url: "/projects"
+    #   - name: Resume
+    #     url: "https://drive.google.com/file/d/15bupi_Ez5GhhNa2LIT7an1Qxg-0XKYH2/view"
 
   # List View
   hideDescriptionInList: false
@@ -73,6 +67,8 @@ params:
       url: "https://www.linkedin.com/in/abdurrahmankalim"
     - name: "github"
       url: "https://github.com/arkalim"
+    - name: "cv"
+      url: "https://drive.google.com/file/d/15bupi_Ez5GhhNa2LIT7an1Qxg-0XKYH2/view"
 
   # text search
   fuseOpts:
