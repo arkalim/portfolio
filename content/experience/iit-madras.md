@@ -1,7 +1,7 @@
 ---
 title: "Computer Vision Intern"
 description: "IIT Madras (India)"
-date: 2019-05-15
+dateString: May 2019 - July 2019
 draft: false
 tags: []
 showToc: false

@@ -1,7 +1,7 @@
 ---
 title: "Kindle to Notion"
 description: "A way to seamlessly transfer your Kindle highlights to Notion Database!"
-date: 2021-12-12
+dateString: December 2021
 draft: false
 tags: ["TypeScript", "Notion", "REST API", "Integration"]
 showToc: false

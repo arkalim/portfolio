@@ -1,7 +1,7 @@
 ---
 title: "Remote Research Intern"
 description: "Technical University of Munich (Germany)"
-date: 2020-08-16
+dateString: Aug 2020 - Oct 2020
 draft: false
 tags: []
 showToc: false

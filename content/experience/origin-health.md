@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning Intern"
 description: "OriginHealth.ai (Singapore)"
-date: 2020-05-15
+dateString: March 2020 - Aug 2020
 draft: false
 tags: []
 showToc: false

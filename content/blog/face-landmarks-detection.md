@@ -1,7 +1,7 @@
 ---
 title: "Face Landmarks Detection with PyTorch"
 description: "Can computers really understand the human face?"
-date: 2020-07-15
+dateString: July 2020
 draft: false
 tags: ["DL", "AI", "Python", "PyTorch"]
 weight: 101
