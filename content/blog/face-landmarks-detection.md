@@ -1,7 +1,7 @@
 ---
-title: "Face Landmarks Detection with PyTorch"
+title: "Face Landmarks Detection using CNN"
 description: "Can computers really understand the human face?"
-dateString: July 2020
+dateString: May 2020
 draft: false
 tags: ["DL", "AI", "Python", "PyTorch"]
 weight: 101
