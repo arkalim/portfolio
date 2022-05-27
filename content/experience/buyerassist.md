@@ -1,6 +1,6 @@
 ---
 title: "Backend Engineer"
-description: "BuyerAssist.io (Pune, India)"
+description: "BuyerAssist.io (India)"
 dateString: June 2021 - Ongoing
 draft: false
 tags: ["TypeScript", "NodeJS", "Express", "MongoDB", "MERN Stack", "AWS"]

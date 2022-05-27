@@ -37,7 +37,6 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
-  ShowPostNavLinks: true
 
   # for enchanced SEO
   env: production
@@ -45,8 +44,8 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Abdur Rahman" # optional default will be site title
-    subtitle: I'm an incoming student at the **University of Toronto**, Canada 🇨🇦 for their MSc in Applied Computing program. Currently, I am working as a Backend Engineer 🧑🏻‍💻 at BuyerAssist.io, a B2B startup based in Pune, India 🇮🇳. <br> I have an extensive background in Deep Learning and Computer Vision through my projects and internship that I did back in college. I have completed my Bachelor of Technology (B.Tech) in Electronics & Communication Engineering from NIT Trichy, one of India's top 10 schools for engineering.
+    title: "Abdur Rahman"
+    subtitle: I'm an incoming student at the **University of Toronto**, Canada 🇨🇦 for their [**MSc in Applied Computing**](https://mscac.utoronto.ca/) program. I'm currently working as a Backend Engineer 🧑🏻‍💻 at [**BuyerAssist.io**](https://buyerassist.io/), a B2B startup based in India 🇮🇳. I have completed my Bachelor of Technology (B.Tech) in Electronics & Communication Engineering from **NIT Trichy**, one of India's top 10 schools for engineering. I consume a lot of self-improvement content predominantly in the form of books & videos. As a content creator on **YouTube** 🎬, I make videos about career, higher education, technology and productivity.
     imageUrl: "home/me.jpg" # optional
     imageWidth: 220
     imageHeight: 220
@@ -65,12 +64,12 @@ params:
   socialIcons:
     - name: "email"
       url: "mailto:abdur.rahman.kalim@gmail.com"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/abdurrahmankalim"
     - name: "github"
       url: "https://github.com/arkalim"
+    - name: "youtube"
+      url: "https://www.youtube.com/c/AbdurRahmanKalim"
     - name: "cv"
       url: "https://drive.google.com/file/d/15bupi_Ez5GhhNa2LIT7an1Qxg-0XKYH2/view"
 
