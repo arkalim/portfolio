@@ -7,7 +7,6 @@ tags: ["ML", "AI", "Python", "PCA", "Data Compression"]
 weight: 105
 cover:
     image: "/blog/pca-visualized/cover.jpg"
-    # caption: "A sample landmark detection on a photo by Ayo Ogunseinde taken from Unsplash"
 ---
 # Introduction
 
