@@ -87,7 +87,7 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON # is necessary
+    - JSON
 
 # allow HTML in MD
 markup:

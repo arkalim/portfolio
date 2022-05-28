@@ -4,7 +4,7 @@ description: "Data compression using Principal Component Analysis (PCA)"
 dateString: Aug 2020
 draft: false
 tags: ["ML", "AI", "Python", "PCA", "Data Compression"]
-weight: 104
+weight: 105
 cover:
     image: "/blog/pca-visualized/cover.jpg"
     # caption: "A sample landmark detection on a photo by Ayo Ogunseinde taken from Unsplash"
