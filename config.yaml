@@ -83,6 +83,7 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
+# for search using Fuse.js
 outputs:
   home:
     - HTML
