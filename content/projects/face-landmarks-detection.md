@@ -5,7 +5,7 @@ dateString: May 2020
 draft: false
 tags: ["DL", "AI", "Python", "PyTorch"]
 showToc: false
-weight: 203
+weight: 204
 cover:
     image: "projects/face-landmarks-detection/cover.jpg"
 --- 

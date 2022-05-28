@@ -3,9 +3,9 @@ title: "Search and Reconnaissance Robot"
 description: "An all-terrain robot for disaster management!"
 dateString: Jan 2019 - Mar 2019
 draft: false
-tags: ["C++", "Python", "RaspberryPi", "Arduino", "Robotics"]
+tags: ["C++", "Python", "Raspberry Pi", "Arduino", "Robotics"]
 showToc: false
-weight: 205
+weight: 207
 cover:
     image: "projects/search-and-reconnaissance-robot/cover.jpeg"
 --- 
