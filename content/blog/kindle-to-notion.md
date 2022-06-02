@@ -4,7 +4,7 @@ description: "A way to seamlessly transfer your Kindle highlights to Notion Data
 dateString: Dec 2021
 draft: false
 tags: ["TypeScript", "Notion", "REST API", "Integration"]
-weight: 101
+weight: 102
 cover:
     image: "/blog/kindle-to-notion/cover.jpg"
 ---
