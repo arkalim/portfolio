@@ -45,7 +45,7 @@ params:
   profileMode:
     enabled: true
     title: "Abdur Rahman"
-    subtitle: Incoming [**MSc in Applied Computing**](https://mscac.utoronto.ca/) at the **University of Toronto**, Canada 🇨🇦<br>Backend Engineer 🧑🏻‍💻 at [**BuyerAssist.io**](https://buyerassist.io/), a B2B startup based in India 🇮🇳<br>B.Tech. in Electronics & Communication Engineering at **NIT Trichy**, India 🇮🇳<br>Part-time **YouTuber** 🎬 who makes videos on career, higher education & productivity
+    subtitle: Incoming [**MSc in Applied Computing**](https://mscac.utoronto.ca/) at the **University of Toronto**, Canada 🇨🇦<br>Backend Engineer 🧑🏻‍💻 at [**BuyerAssist.io**](https://buyerassist.io/), a B2B startup based in India 🇮🇳<br>B.Tech. in Electronics & Communication Engineering at **NIT Trichy**, India 🇮🇳<br>**YouTuber** 🎬 who makes videos on career, higher education & productivity
     imageUrl: "home/me.jpg"
     imageWidth: 220
     imageHeight: 220
