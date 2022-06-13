@@ -29,6 +29,10 @@ menu:
     name: Tags
     url: /tags
     weight: 60
+  - identifier: notes
+    name: Notes
+    url: notes.arkalim.org
+    weight: 70
 
 params:
   # theme
