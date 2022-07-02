@@ -75,7 +75,7 @@ params:
     - name: "youtube"
       url: "https://www.youtube.com/c/AbdurRahmanKalim"
     - name: "cv"
-      url: "https://drive.google.com/file/d/15bupi_Ez5GhhNa2LIT7an1Qxg-0XKYH2/view"
+      url: "https://drive.google.com/file/d/1O0Qxwj0nz7O0VO0JoZJdqtPtUn7oOXcq/view"
 
   # text search
   fuseOpts:
