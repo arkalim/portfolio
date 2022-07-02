@@ -4,7 +4,7 @@ description: "A custom GitHub Action to publish Obsidian notes as a website"
 dateString: June 2022
 draft: false
 tags: ["AWS", "RegEx", "MkDocs", "GitHub Action", "Docker", "Bash", "TypeScript", "Node.JS"]
-weight: 209
+weight: 201
 cover:
     image: "/projects/obsidian-publish-github-action/cover.jpg"
 ---

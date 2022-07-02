@@ -5,7 +5,7 @@ dateString: May 2018 - July 2018
 draft: false
 tags: ["C++", "Raspberry Pi", "Arduino", "Robotics", "AI", "DL", "CNN"]
 showToc: false
-weight: 208
+weight: 209
 cover:
     image: "projects/sebart-pro/cover.jpeg"
 --- 

@@ -5,7 +5,7 @@ dateString: Jan 2019 - Mar 2019
 draft: false
 tags: ["C++", "Python", "Raspberry Pi", "Arduino", "Robotics"]
 showToc: false
-weight: 207
+weight: 208
 cover:
     image: "projects/search-and-reconnaissance-robot/cover.jpeg"
 --- 

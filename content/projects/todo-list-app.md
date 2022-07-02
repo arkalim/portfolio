@@ -5,7 +5,7 @@ dateString: May 2021
 draft: false
 tags: ["React", "Web Development", "Frontend Development", "HTML", "CSS", "JavaScript"]
 showToc: false
-weight: 203
+weight: 204
 cover:
     image: "projects/todo-list-app/cover.jpg"
 --- 

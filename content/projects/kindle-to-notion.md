@@ -5,7 +5,7 @@ dateString: Dec 2021
 draft: false
 tags: ["TypeScript", "Notion", "REST API", "Integration"]
 showToc: false
-weight: 201
+weight: 202
 cover:
     image: "projects/kindle-to-notion/cover.jpg"
 --- 

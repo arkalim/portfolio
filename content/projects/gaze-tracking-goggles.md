@@ -5,7 +5,7 @@ dateString: Sep 2019 - Oct 2019
 draft: false
 tags: ["DL", "AI", "Python", "PyTorch", "Computer Vision"]
 showToc: false
-weight: 205
+weight: 206
 cover:
     image: "projects/gaze-tracking-goggles/cover.jpg"
 --- 

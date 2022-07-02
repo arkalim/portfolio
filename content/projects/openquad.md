@@ -5,7 +5,7 @@ dateString: July 2019 - Dec 2019
 draft: false
 tags: ["Drone", "Raspberry Pi", "Python", "Computer Vision", "Automation"]
 showToc: false
-weight: 206
+weight: 207
 cover:
     image: "projects/openquad/cover.jpg"
 --- 
