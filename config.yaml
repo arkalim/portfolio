@@ -1,38 +1,38 @@
-baseURL: 'https://arkalim.org'
+baseURL: "https://arkalim.org"
 languageCode: en-us
 title: Abdur Rahman
 theme: PaperMod
 
 menu:
   main:
-  - identifier: home
-    name: Home
-    url: /
-    weight: 10
-  - identifier: blog
-    name: Blog
-    url: /blog
-    weight: 20
-  - identifier: projects
-    name: Projects
-    url: /projects
-    weight: 30
-  - identifier: experience
-    name: Experience
-    url: /experience
-    weight: 40
-  - identifier: search
-    name: Search
-    url: /search
-    weight: 50
-  - identifier: tags
-    name: Tags
-    url: /tags
-    weight: 60
-  - identifier: notes
-    name: Notes
-    url: https://notes.arkalim.org
-    weight: 70
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    - identifier: notes
+      name: Notes
+      url: https://notes.arkalim.org
+      weight: 70
 
 params:
   # theme
