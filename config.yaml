@@ -1,5 +1,5 @@
 baseURL: "https://arkalim.org"
-languageCode: en-us
+languageCode: en-uk
 title: Vidushi Khanna
 theme: PaperMod
 
@@ -28,7 +28,7 @@ menu:
       weight: 70
     - identifier: certifications
       name: Certifications and Skills
-      url: /certifications
+      url: /certifications/
       weight: 40
     
 
@@ -48,9 +48,9 @@ params:
     enabled: true
     title: "Vidushi Khanna"
     subtitle: Incoming [**Health Informatics Postgraduate**](https://www.georgebrown.ca/programs/health-informatics-program-postgraduate-t402) learning business analysis, project management and Health IT at **George Brown College**, Canada.<br>Technical Solutions Analyst 🧑🏻‍💻 at [**Oracle Cerner**](https://www.cerner.com/), a healthcare IT platform providing EHR solutions headquartered in USA.<br>A Dental graduate(BDS) with passion for all things **Digital**, **Data driven**, and requiring a deep dive into **analysis**, from India.<br>
-    imageUrl: "home/Viduimage.jpeg"
-    imageWidth: 220
-    imageHeight: 220
+    imageUrl: "home/image4.jpeg"
+    imageWidth: 210
+    imageHeight: 230
     # buttons:
     #   - name: Resume
     #     url: "https://drive.google.com/file/d/15bupi_Ez5GhhNa2LIT7an1Qxg-0XKYH2/view"
