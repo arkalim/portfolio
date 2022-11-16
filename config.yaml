@@ -1,6 +1,6 @@
-baseURL: "https://arkalim.org"
+baseURL: "https://vivekchauhan.org"
 languageCode: en-us
-title: Abdur Rahman
+title: Vivek Chauhan
 theme: PaperMod
 
 menu:
@@ -48,7 +48,7 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Abdur Rahman"
+    title: "Vivek Chauhan"
     subtitle: Incoming [**MSc in Applied Computing**](https://mscac.utoronto.ca/) at the **University of Toronto**, Canada 🇨🇦<br>Backend Engineer 🧑🏻‍💻 at [**BuyerAssist.io**](https://buyerassist.io/), a B2B startup based in India 🇮🇳<br>B.Tech. in Electronics & Communication Engineering at **NIT Trichy**, India 🇮🇳<br>**YouTuber** 🎬 who makes videos on career, higher education & productivity
     imageUrl: "home/me.jpg"
     imageWidth: 220
@@ -67,13 +67,13 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
+      url: "mailto:iamvivekchauhan19@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
+      url: "https://www.linkedin.com/in/iamvivekchauhan"
     - name: "github"
-      url: "https://github.com/arkalim"
+      url: "https://github.com/iamvivekchauhan"
     - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
+      url: "https://www.youtube.com/c/LUBTv"
     - name: "cv"
       url: "https://drive.google.com/file/d/1O0Qxwj0nz7O0VO0JoZJdqtPtUn7oOXcq/view"
 
