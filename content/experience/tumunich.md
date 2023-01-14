@@ -5,7 +5,7 @@ dateString: Aug 2020 - Oct 2020
 draft: false
 tags: []
 showToc: false
-weight: 302
+weight: 303
 --- 
 ### 🔗 [GitHub](https://github.com/arkalim/pytorch-CycleGAN-and-pix2pix/tree/3D_Seg)
 

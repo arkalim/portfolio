@@ -29,10 +29,10 @@ menu:
     #   name: Tags
     #   url: /tags
     #   weight: 60
-    - identifier: notes
-      name: Notes
-      url: https://notes.arkalim.org
-      weight: 70
+    # - identifier: notes
+    #   name: Notes
+    #   url: https://notes.arkalim.org
+    #   weight: 70
 
 params:
   # theme
@@ -49,13 +49,13 @@ params:
   profileMode:
     enabled: true
     title: "Abdur Rahman"
-    subtitle: Incoming [**MSc in Applied Computing**](https://mscac.utoronto.ca/) at the **University of Toronto**, Canada 🇨🇦<br>Backend Engineer 🧑🏻‍💻 at [**BuyerAssist.io**](https://buyerassist.io/), a B2B startup based in India 🇮🇳<br>B.Tech. in Electronics & Communication Engineering at **NIT Trichy**, India 🇮🇳<br>**YouTuber** 🎬 who makes videos on career, higher education & productivity
+    subtitle: "Hi, I'm Abdur, an [**MSc in Applied Computing**](https://mscac.utoronto.ca/) student at the **University of Toronto** 🇨🇦. I'm passionate about **Backend**, **Cloud** and **DevOps**, and I'm also an AWS Certified Solutions Architect. Along with my grad studies, I've been working as a **DevOps Intern** at [**16Bit.ai**](https://www.16bit.ai), a MedTech startup based in Toronto 🇨🇦. Before joining the MScAC program, I worked as a **Backend Engineer** at [**BuyerAssist.io**](https://buyerassist.io/), a B2B SaaS startup based in India 🇮🇳. When I'm free, I make YouTube 🎬 videos on career, higher education & productivity"
     imageUrl: "home/me.jpg"
     imageWidth: 220
     imageHeight: 220
     # buttons:
     #   - name: Resume
-    #     url: "https://drive.google.com/file/d/15bupi_Ez5GhhNa2LIT7an1Qxg-0XKYH2/view"
+    #     url: ""
 
   # List View
   hideDescriptionInList: false

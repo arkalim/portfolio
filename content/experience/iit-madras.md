@@ -5,7 +5,7 @@ dateString: May 2019 - July 2019
 draft: false
 tags: []
 showToc: false
-weight: 304
+weight: 305
 --- 
 ### 🔗 [GitHub](https://github.com/arkalim/Tensorflow/tree/master/VLocNet)
 
