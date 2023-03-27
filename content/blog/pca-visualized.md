@@ -4,7 +4,7 @@ description: "Data compression using Principal Component Analysis (PCA)"
 dateString: Aug 2020
 draft: false
 tags: ["ML", "AI", "Python", "PCA", "Data Compression"]
-weight: 106
+weight: 107
 cover:
     image: "/blog/pca-visualized/cover.jpg"
 ---

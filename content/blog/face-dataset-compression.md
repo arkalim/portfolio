@@ -4,7 +4,7 @@ description: "Principal Component Analysis for Image Dataset Compression"
 dateString: Aug 2020
 draft: false
 tags: ["ML", "AI", "Python", "PCA", "Data Compression"]
-weight: 105
+weight: 106
 cover:
     image: "/blog/face-dataset-compression/cover.jpg"
     # caption: "A sample landmark detection on a photo by Ayo Ogunseinde taken from Unsplash"

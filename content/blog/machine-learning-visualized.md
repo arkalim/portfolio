@@ -4,7 +4,7 @@ description: "A visual approach to understand machine learning"
 dateString: August 2020
 draft: false
 tags: ["ML", "AI", "Python", "Visualization"]
-weight: 104
+weight: 105
 cover:
     image: "blog/machine-learning-visualized/cover.jpeg"
     # caption: "Photo by Lenin Estrada on Unsplash"
