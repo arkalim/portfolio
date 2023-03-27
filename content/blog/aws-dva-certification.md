@@ -6,7 +6,7 @@ draft: false
 tags: ["AWS", "DVA", "Certification", "Developer", "Developer Associate"]
 weight: 101
 cover:
-    image: "/blog/aws-dva-certification/cover.jpeg"
+    image: "/blog/aws-dva-certification/cover.jpg"
 ---
 
 # Credentials
@@ -22,11 +22,11 @@ I've passed the AWS Solutions Architect - Associate certification exam with just
 # What is AWS Developer - Associate Certification
 With the rise of Cloud Computing, companies have constantly been shifting from running their infrastructure on-premise, which is hard to scale and manage, to running them on cloud, which offers far more elasticity in terms of scaling and resiliency in case of disasters.
 
-![](/blog/aws-dva-certification/img1)
+![](/blog/aws-dva-certification/img1.jpg)
 
 The AWS **Developer - Associate** certification validates your expertise in developing and maintaining applications on AWS, which is the leading cloud provider today. It focuses on AWS core services, development tools and deployment practices. It can help developers enhance their skills, increase their earning potential, and demonstrate their proficiency to potential employers.
 
-![](/blog/aws-dva-certification/img2)
+![](/blog/aws-dva-certification/img2.png)
 
 # Exam Format
 In this exam, you will get **65 questions** and **130 minutes** to answer them which means you get **2 mins per question**. Out of the total questions, 15 will be experimental (ungraded). But you will not know which ones are experimental, otherwise you will skip them. So, you need to attempt every question on the test.
@@ -53,7 +53,7 @@ I also created a notion page for quick notes to include information that’s har
 
 🔗 [My notes](https://drive.google.com/file/d/1VhFPfb1cc7ORFVqFetCvpiGLPE96ofg4/view?usp=sharing)
 
-![](/blog/aws-dva-certification/img3)
+![](/blog/aws-dva-certification/img3.png)
 
 # Taking the Test
 You can take the test either at a testing center or online at the comfort of your home. I would suggest you go for a testing center if it is available nearby. The experience is so smooth and you don't have to worry about internet connectivity or proctoring issues. I took the test at a testing center and my experience was good. 
