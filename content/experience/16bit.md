@@ -10,10 +10,14 @@ weight: 301
 
 ### Description
 
-- Integrated Rho product with GE Healthcare’s Edison platform which is expected to significantly increase the adoption of Rho among Canadian hospitals. GE Healthcare provided Amazon EKS to deploy Rho, which was originally designed to work on Docker-Compose. As a part of this integration, I wrote Kubernetes manifests to migrate Rho from Docker-Compose to Kubernetes.
-- Automated integration testing of all the major backend workflows saving more than 2h of weekly testing time.
-- Asynchronously decoupled individual micro-services using RabbitMQ and implemented dead letter queues (DLQs) for each queue to ensure retry of failed messages.
-- Wrote Python scripts to automate installation and updation of Rho on customer site.
-- Wrote bash scripts to automate the backup and restore functionality of Rho.
+- Strategically optimized the product's infrastructure on AWS, resulting in a remarkable cost reduction of over 50% while fortifying network security.
+- Improved the product's availability and fault tolerance through dynamic horizontal scaling on AWS, ensuring uninterrupted service and enhancing user experience.
+- Automated integration testing using PyTest, effectively saving over 4 hours of manual testing time in each sprint.
+- Asynchronously decoupled individual micro-services and introduced dead letter queues (DLQ) to ensure reliable and uninterrupted operation of the product’s pipeline.
+- Developed Python scripts to streamline product installation on customer sites, significantly reducing onboarding time by over 200%.
+- Performed a comprehensive revamp of the backend codebase, improving readability, fixing bugs, and enhancing performance by identifying and resolving bottlenecks.
+- Actively engaged with potential customers as the lead developer, providing technical guidance and support to drive customer success which increased product adoption by over 20%.
+- Led and mentored a team of 3 junior interns in successfully designing, developing, and seamlessly integrating a sophisticated AI pipeline with the product.
+- Building a cloud-native version of the product on Kubernetes with GitOps principles, to facilitate easy deployment and management of multiple instances of the product on the cloud.
 
 ![](/experience/16bit/img1.jpeg#center)
