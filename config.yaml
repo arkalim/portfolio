@@ -49,8 +49,8 @@ params:
   profileMode:
     enabled: true
     title: "Abdur Rahman"
-    subtitle: Hi 👋! I'm Abdur, an ambitious DevOps Intern at [**16Bit.ai**](https://www.16bit.ai), an innovative healthcare startup in Toronto. Currently pursuing my [**MSc in Applied Computing**](https://mscac.utoronto.ca/) at the esteemed University of Toronto, I bring a solid foundation in Software Engineering with professional experience. I am captivated by the realm of Cloud Computing and DevOps practices, seeking to revolutionize how we deploy applications in the modern era. To enhance my expertise, I have also obtained AWS associate-level certifications as a Solutions Architect and Developer, further bolstering my skills in the cloud computing domain. My unwavering curiosity and drive push me to explore fresh avenues to redefine technological frontiers. During my leisure hours, I channel my creativity into crafting engaging YouTube 🎬 videos, where I share my journey as an international student in Canada 🇨🇦.
-    imageUrl: "home/formal-pic-small.jpeg"
+    subtitle: As a Senior Software Engineer diving deep into the realms of cloud infrastructure and AI at [**16Bit.ai**](https://www.16bit.ai), I've been stirring up some serious cloud-native concoctions, slicing AWS costs in half (like a budget ninja!), and automating the heck out of everything from ML pipelines to testing — because, let's face it, who has the time? My adventures have taken me from crafting serverless marvels to teaching computers how to understand X-Ray images. Alongside juggling bits and bytes, I've championed customer success and danced through the technical challenges with a bit of flair and a lot of code. I'm all about making tech less intimidating and more fun, one Kubernetes cluster at a time.
+    imageUrl: "home/casual-small.jpeg"
     imageWidth: 220
     imageHeight: 220
     # buttons:
