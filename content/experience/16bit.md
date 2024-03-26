@@ -1,23 +1,23 @@
 ---
-title: "DevOps Intern"
-description: "16Bit.ai (Toronto)"
-dateString: Sep 2022 - Ongoing
+title: "Senior Software Engineer (Infrastructure)"
+description: "16Bit.ai | Toronto, Canada"
+dateString: Sep 2022 - Present
 draft: false
-tags: ["Python", "Linux", "Kubernetes", "Docker", "GCP", "Automation", "FastAPI"]
+tags: ["Python", "Linux", "Kubernetes", "Docker", "GCP", "Automation", "FastAPI", "Helm", "ArgoCD", "ML", "AWS", "CI/CD", "Grafana"]
 showToc: false
 weight: 301
 --- 
 
 ### Description
 
-- Strategically optimized the product's infrastructure on AWS, resulting in a remarkable cost reduction of over 50% while fortifying network security.
-- Improved the product's availability and fault tolerance through dynamic horizontal scaling on AWS, ensuring uninterrupted service and enhancing user experience.
-- Automated integration testing using PyTest, effectively saving over 4 hours of manual testing time in each sprint.
-- Asynchronously decoupled individual micro-services and introduced dead letter queues (DLQ) to ensure reliable and uninterrupted operation of the product’s pipeline.
-- Developed Python scripts to streamline product installation on customer sites, significantly reducing onboarding time by over 200%.
-- Performed a comprehensive revamp of the backend codebase, improving readability, fixing bugs, and enhancing performance by identifying and resolving bottlenecks.
-- Actively engaged with potential customers as the lead developer, providing technical guidance and support to drive customer success which increased product adoption by over 20%.
-- Led and mentored a team of 3 junior interns in successfully designing, developing, and seamlessly integrating a sophisticated AI pipeline with the product.
-- Building a cloud-native version of the product on Kubernetes with GitOps principles, to facilitate easy deployment and management of multiple instances of the product on the cloud.
+- Architected and developed a cloud-native version of the product on Kubernetes and packaged it as a Helm chart for ease of deployment, distribution and versioning. 
+- Enhanced operational efficiency by implementing GitOps at scale using ArgoCD, enabling centralized management of multiple K8s clusters, cutting down the release and software update timings by a magnitude.
+- Established robust Kubernetes cluster monitoring and log aggregation through Grafana Agent and Grafana Cloud, allowing remote observability into customer installations.
+- Built CI pipelines on GitHub Actions to automate building and testing of container images upon update to the product code.
+- Automated end-to-end testing using PyTest, effectively saving over 4 hours of manual testing time per sprint.
+- Developed a multi-stage ML pipeline to extract tabular data from XRay report images, thereby automating a manual step in the radiologist's workflow.
+- Strategically optimized the product's infrastructure on AWS, reducing the cloud cost by over 50%.
+- Actively engaged with potential customers as the lead developer, providing technical guidance and support to drive customer success.
+- Revamped the entire product codebase, improving reliability and readability while fixing numerous production bugs to ensure the smooth operation of the product on customer sites.
 
 ![](/experience/16bit/img1.jpeg#center)
